@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body {
+        background-color: #f5f5f5;
+        background-size: 40px 40px;
+        font-family: "Times New Roman", serif;
+        margin: 0;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .box {
+        background-color: azure;
+        padding: 40px 60px;
+        border: 6px solid black;
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+        border-bottom: 4px solid black;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: clamp(60px, 10vw, 120px); 
+        text-transform: uppercase;
+        letter-spacing: -6px;
+        margin: 0;
+        color: black;
+        line-height: 0.9;
+    }
+
+    .subtitle {
+        font-family: monospace;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-family: monospace;
+        background: black;
+        color: white;
+        padding: 5px 10px;
+        display: inline-block;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    .menu {
+        list-style: none;
+        padding: 0;
+    }
+
+    .menu li {
+        margin: 12px 0;
+        border-bottom: 2px solid #eee;
+        padding: 8px 0;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .menu li b {
+        color: #d32f2f;
+        text-transform: uppercase;
+        font-size: 0.9em;
+    }
+
+    .nav-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        flex-wrap: wrap; 
+    }
+
+    .nav-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 60px;
+        text-decoration: none;
+        color: white;
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 3px solid black;
+        
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.6); 
+        background-blend-mode: multiply;
+        
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+ .btn-home {
+        background-image: url('https://www.kspaceproject.com/cdn/shop/collections/illit_kspace.jpg');
+    }
+
+    .btn-measurement {
+        background-image: url('https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2025%2F08%2F21%2Fplayboi-carti-supreme-photo-tee-release-info-fw25-1.jpg');
+    }
+    
+    .btn-wavensound {
+        background-image: url('https://blog.delivered.co.kr/wp-content/uploads/2025/03/H2H-featured.jpg');
+    }
+    
+    .btn-dynamicelectricity {
+        background-image: url('https://newsimg.koreatimes.co.kr/2024/04/01/4516a2e1-208e-4e4f-879e-33d6b2a80987.jpg');
+    }
+    
+    .btn-magnetism {
+        background-image: url('https://static.promediateknologi.id/crop/0x0:0x0/1200x600/webp/photo/p1/274/2025/11/26/1000086558-1406656161.jpg');
+    }
+
+    .btn-ex {
+        background-image: url('https://i.redd.it/bj21ldeit2ed1.jpeg');
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="header">
+            <h1>WAVES & SOUNDS</h1>
+            <div class="subtitle">GRADE 8</div>
+        </div>
+
+        
+            <div>
+                <h2>01. MAGNETS</h2>
+                <ul class="menu"> 
+                    <li><b>DEFINITION:</b> Objects that attract other objects if they are made of magnetic materials (Iron, steel, nickel, cobalt)
+                       <ul><img src="https://cdn.britannica.com/62/91762-050-FBE73839/Bar-magnets-poles-repulsion-attraction.jpg" style="max-width: 490px;" alt="I AM PHYSICS" ></ul>
+                       <ul><b>POLES:</b> 
+                       <br> - There are North and South Poles
+                       <br> - Reperesent the strongest parts of the magnets
+                       <br> - Like poles repel if placed near each other
+                       <br> - Opposite poles attract if placed near each other
+                    </ul>
+                    <ul><b>MATERIALS:</b> 
+                        <br> - Magnetically hard materials: Retains magnetism for a long time after magnetization (for permanent magnets)
+                        <br> - Magnetically soft materials: Loses magnetism easily after magnetization (used for temporary magnets)
+                    </ul></li>
+                    
+                    <li><b>MAGNETIC FIELDS:</b> The invisible volume of space around a magnet
+                        <ul><img src="https://ece.northeastern.edu/fac-ece/nian/mom/img/How%20Magnets%20Work/magneticFieldLines1.gif" style="max-width: 490px;" alt="I AM PHYSICS" ></ul>
+                        <ul>- Magnetism is able to be detected</ul>
+                        <ul>- Is invisible, but visualized using iron fillings</ul></li>
+
+                    <li><b>OVERLAPPING MAGNETIC FIELDS:</b> If two magnets are placed near each other, their magnetic fields will overlap and interact with one another, altering the shape
+                        <ul><img src="" style="max-width: 490px;" alt="I AM PHYSICS" ></ul>
+                        <ul>TYPES:
+                            <br>- Uniform = Strength and Direction are the same, allowing many useful features
+                            <br>- Empty space between overlapping magnetic field lines is called blank space
+                        </ul>
+
+                    <li><b>INDUCED MAGNETISM:</b> Taking a magnetic material and turn it into a magnet by the process of magnetic induction. If we take a magnetically soft material, like iron nails, and attach it to a magnet, then the iron nails will become magnets themselves. However, when removed from the magnet, it will lose its magnetism because iron is a magnetically soft material.
+                        <ul><img src="" style="max-width: 490px;" alt="I AM PHYSICS" ></ul>
+                        
+                    <li><b>ELECTROMAGNETISM:</b> Electromagnets are magnetic materials that have been magnetized with electricity.
+                        <ul><b>HOW IT WORKS</b>:
+                        <br>- Wrapping a coil with a flowing current around a magnetic material creates a magnetic field
+                        <br>- The strength of the field can be increased by = 
+                        <br>ㅤ1. Increasing Current
+                        <br>ㅤ2. Increasing turns
+                        <br>ㅤ3. Wrapping it around a magnetically soft core (higher magnetic permeability)</ul>
+
+                    <li><b>RIGHT-HAND GRIP RULE:</b> To find the direction of the magnetic field created by a current in a wire,we use the right hand rule
+                        <ul><img src="" style="max-width: 490px;" alt="I AM PHYSICS" ></ul>
+                        <ul>
+                            <b>HOW IT WORKS</b>
+                            <br>- The thumb follows the current's direction in the wire (Always points to the north pole of the magnet)
+                            <br>- The curled fingers act as the direction of the magnetic field around the current
+                            <br>- Ex:
+                            <br>ㅤ1. If the current is entering the screen, our thumbs face the screen
+                            <br>ㅤ2. If our hand curls upwards, the magnetic field is moving clockwise.
+                        </ul>
+                </ul>
+
+                
+        <div class="nav-buttons">
+        <a href="tik.html" class="nav-btn btn-home">Home</a>
+        <a href="sound.html" class="nav-btn btn-wavensound">Waves & Sound</a>
+        <a href="measurement.html" class="nav-btn btn-measurement">Measurement</a>
+        <a href="electrictiy.html" class="nav-btn btn-dynamicelectricity">Dynamic Electricity</a>
+        <a href="ex.html" class="nav-btn btn-ex">Additional Exercise</a>  
+        </div>
+
+            </div>
+
+
+
+</body>
+</html>
